@@ -11,7 +11,6 @@ from dash_bootstrap_templates import ThemeChangerAIO, template_from_url
 import pandas as pd
 import traceback
 import pickle
-import plotly.express as px
 from math import sqrt
 from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import train_test_split
@@ -24,12 +23,10 @@ from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
 from sklearn.exceptions import NotFittedError
-
 import plotly.graph_objects as go
 import plotly.subplots as sp
 import numpy as np
 import plotly.express as px
-
 import logging
 
 logging.basicConfig(level=logging.INFO)
